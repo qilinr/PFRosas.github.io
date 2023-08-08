@@ -7,6 +7,10 @@ $theme-colors: (
   "secondary":rgba(217, 217, 217, 1),
   "warning":rgba(8, 5, 32, 1)
 );
+.bodyy{
+  min-height: 100vh;
+  position: relative;
+}
 #nota{
   font-size: 1rem
 }
@@ -31,6 +35,27 @@ $theme-colors: (
   bottom: 0px;
   left: 0px;
   box-sizing: border-box
+  }
+}
+.footern{
+  border: 1px solid white;
+  border-radius: 5px;
+  background-color: rgba(8, 5, 32, 1);
+  font-size: 1.2rem;
+  margin:0px;
+  width: 100%;
+}
+@media(min-width:790px){
+  .footern{
+    border: 1px solid white;
+  border-radius: 5px;
+  background-color: rgba(8, 5, 32, 1);
+  font-size: 1.2rem;
+  margin:0px;
+  position: absolute;
+  bottom: 0;
+  left: 0px;
+  box-sizing: border-box;
   }
 }
 

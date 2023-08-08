@@ -1,4 +1,9 @@
 @charset "UTF-8";
+.bodyy {
+  min-height: 100vh;
+  position: relative;
+}
+
 #nota {
   font-size: 1rem;
 }
@@ -22,6 +27,28 @@
     margin: 0px;
     position: absolute;
     bottom: 0px;
+    left: 0px;
+    box-sizing: border-box;
+  }
+}
+.footern {
+  border: 1px solid white;
+  border-radius: 5px;
+  background-color: rgb(8, 5, 32);
+  font-size: 1.2rem;
+  margin: 0px;
+  width: 100%;
+}
+
+@media (min-width: 790px) {
+  .footern {
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: rgb(8, 5, 32);
+    font-size: 1.2rem;
+    margin: 0px;
+    position: absolute;
+    bottom: 0;
     left: 0px;
     box-sizing: border-box;
   }
